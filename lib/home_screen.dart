@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
   static const String routeName = 'home_screen';
@@ -7,6 +7,12 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          'Islami',
+        ),
+      ),
+    );
   }
 }
